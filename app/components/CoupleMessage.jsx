@@ -82,7 +82,7 @@ export default function CoupleMessage() {
                         }}
                     >
                         {testimonial.map((item, index) => (
-                            <SwiperSlide key={index} className="flex justify-center w-auto!">
+                            <SwiperSlide key={index} className="flex justify-center">
                                 <img
                                     src={item.img}
                                     alt=""
